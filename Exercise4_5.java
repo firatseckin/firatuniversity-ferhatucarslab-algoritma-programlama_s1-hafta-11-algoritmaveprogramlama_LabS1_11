@@ -25,3 +25,39 @@ public class Exercise4_5 {
         System.out.println("any " + strangStrung + "more ");
     }
 }
+
+
+Program Çıktısı:
+
+main başlar: bizz=5, buzz=2.
+
+zoop("just for", 5) çağrılır.
+
+print(fred) -> "just for" (ve alt satıra geçer).
+
+bob (5) == 5 olduğundan ping("not") çağrılır.
+
+ping: " any not more " (ve alt satıra geçer).
+
+main devam eder: clink(2 * 2) yani clink(4) çağrılır.
+
+clink(4):
+
+print("It's ") -> "It's " (satır sonu yok).
+
+zoop("breakfast", 4) çağrılır.
+
+zoop: print("breakfast") -> "breakfast" (ve alt satıra geçer).
+
+bob (4) == 5 yanlış. else çalışır.
+
+print("!") -> "!" (ve alt satıra geçer).
+
+
+Tam çıktı:
+just for
+ any not more 
+It's breakfast
+!
+
+    
