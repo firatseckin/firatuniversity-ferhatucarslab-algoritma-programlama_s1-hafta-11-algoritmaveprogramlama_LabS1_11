@@ -22,3 +22,28 @@ public class Exercise4_3 {
         System.out.println(".");
     }
 }
+
+
+
+Çıktı Analizi:
+
+main: print("No, I ") -> Ekranda: "No, I "
+
+zoop() çağrılır.
+
+baffle() -> print(" wug"), ping() -> println("."). Ekranda: " wug.\n"
+
+print(" You wugga "). Ekranda: " You wugga "
+
+baffle() -> print(" wug"), ping() -> println("."). Ekranda: " wug.\n"
+
+main devam eder: print("I "). Ekranda: "I "
+
+baffle() -> print(" wug"), ping() -> println("."). Ekranda: " wug.\n"
+
+
+Tam çıktı:
+
+No, I  wug.
+ You wugga  wug.
+I  wug.    
